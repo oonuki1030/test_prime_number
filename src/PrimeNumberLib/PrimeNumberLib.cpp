@@ -9,7 +9,7 @@ bool is_prime_number(int number)
 		
 	int v = 2;
 	
-	while(v < number){    　　　　　//変更箇所
+	while(v * v =< number){    　　　　　
 		if (number % v++ == 0) 
 		{
 			return false;
